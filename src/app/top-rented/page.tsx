@@ -5,7 +5,7 @@ import FiltersColumn from "@/components/ui/filters";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Top Rented Items | Daneizo",
+  title: "Top Rented Items | RentedIt",
 };
 
 const Page = () => {

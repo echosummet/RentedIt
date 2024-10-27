@@ -8,17 +8,17 @@ import Footer from "@/components/Footer/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Daneízo",
+  title: "RentedIt",
   description: "Rent, Use, Return - It's That Simple !",
-  keywords: "Daneízo, Rent, Use, Return, Simple",
+  keywords: "Rent, Use, Return, Simple. RentedIt",
   openGraph: {
-    title: "Daneízo",
+    title: "RentedIt",
     description: "Rent, Use, Return - It's That Simple !",
-    url: "https://daneizo.vercel.app",
+    url: "http://localhost:3000",
     type: "website",
     images: [
       {
-        url: "https://daneizo.vercel.app/logo.svg",
+        url: "/images/logo.png",
         width: 1200,
         height: 630,
         alt: "Image Alt Text",
@@ -39,7 +39,6 @@ export default function RootLayout({
       <Navbar/>
         {children}
         <Footer />
-        <Analytics />
       </body>
     </html>
   );

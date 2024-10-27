@@ -1,11 +1,12 @@
 import Image from "next/image";
 
+
 const LogoTitleNavbar = () => {
   return (
     <div className="flex gap-2 items-center">
       <a href="/" className="cursor-default">
         <Image
-          src="/Logo.svg"
+          src="https://www.rentools.pro/image/site_logo/RenTools_logo.jpg"
           alt="Logo"
           width={35}
           height={35}
@@ -13,7 +14,7 @@ const LogoTitleNavbar = () => {
         />
       </a>
       <a href="/" className="cursor-default">
-        <h2 className="font-praise text-white text-[2rem] md:text-[30px]">Daneízo</h2> 
+        <h2 className="font-praise text-white text-[2rem] md:text-[30px]">RentedIt!</h2> 
       </a>
     </div>
   );

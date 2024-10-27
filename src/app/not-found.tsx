@@ -3,7 +3,7 @@ import Footer from "@/components/Footer/Footer";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Error 404 | Daneizo",
+  title: "Error 404 | RentedIt",
 };
 
 const Custom404: React.FC = () => {

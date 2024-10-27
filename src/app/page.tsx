@@ -7,20 +7,20 @@ import UserTestimonials from "@/components/UserTestimonials/UserTestimonials";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Home - Daneízo",
-  description: "Explore the top rented items, how it works, and user testimonials at Daneízo.",
+  title: "Home - RentedIt",
+  description: "Explore the top rented items, how it works, and user testimonials at RentedIt.",
   keywords: "rental, items, user testimonials, how it works",
   openGraph: {
-    title: "Daneízo - Home",
+    title: "RentedIt - Home",
     description: "Discover top rental items and read user testimonials.",
-    url: "https://daneizo.vercel.app",
+    url: "http://localhost:3000",
     type: "website",
     images: [
       {
-        url: "https://daneizo.vercel.app/logo.svg",
+        url: "/images/logo.png",
         width: 1200,
         height: 630,
-        alt: "Daneízo Home Page Image",
+        alt: "RentedIt Home Page Image",
       },
     ],
   },

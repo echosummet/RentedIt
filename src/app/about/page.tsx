@@ -5,7 +5,7 @@ import Navbar from '@/components/Navbar/Navbar';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "About Us | Daneizo" 
+  title: "About Us | RentedIt" 
 };
 
 const AboutUs: React.FC = () => {
@@ -34,14 +34,14 @@ const AboutUs: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
               <h1 className="text-4xl sm:text-5xl font-extrabold text-white leading-tight">
-                About <span className="text-blue-500">Daneizo</span>
+                About <span className="text-blue-500">RentedIt</span>
               </h1>
               <p className="mt-6 text-base sm:text-lg text-white">
-                Welcome to <span className="font-bold text-blue-500">Daneizo</span>, a revolutionary platform where renting is as exciting as buying! 🎉 
+                Welcome to <span className="font-bold text-blue-500">RentedIt</span>, a revolutionary platform where renting is as exciting as buying! 🎉 
                 Our mission is simple: <span className="font-semibold">"Why Buy When You Can Rent It!"</span> We offer a seamless experience for users to explore, rent, and manage a variety of items, from electronics to furniture and more.
               </p>
               <p className="mt-6 text-base sm:text-lg text-white">
-                Our platform is built with the latest technologies and is constantly evolving with the help of our growing community of contributors. Whether you’re a skilled developer or just starting, Daneizo is open for everyone to contribute and make a difference.
+                Our platform is built with the latest technologies and is constantly evolving with the help of our growing community of contributors. Whether you’re a skilled developer or just starting, RentedIt is open for everyone to contribute and make a difference.
               </p>
             </div>
 
@@ -57,7 +57,7 @@ const AboutUs: React.FC = () => {
           <div className="mt-12 bg-gray-900 p-6 md:p-8 rounded-lg shadow-lg">
             <h2 className="text-2xl sm:text-3xl font-bold text-white">Our Mission</h2>
             <p className="mt-4 text-base sm:text-lg text-white">
-              Daneizo is dedicated to empowering users by offering affordable and accessible rental options. Our mission is to create a hassle-free, secure, and enjoyable rental platform for all types of users.
+              RentedIt is dedicated to empowering users by offering affordable and accessible rental options. Our mission is to create a hassle-free, secure, and enjoyable rental platform for all types of users.
             </p>
           </div>
 
@@ -75,7 +75,7 @@ const AboutUs: React.FC = () => {
           <div className="mt-12 text-center">
             <h3 className="text-xl sm:text-2xl font-bold text-white">Join Us on Our Journey!</h3>
             <p className="mt-4 text-base sm:text-lg text-white">
-              Whether you’re a user ready to rent or a developer eager to contribute, Daneizo is the perfect platform to join and make an impact. Let’s build something extraordinary together!
+              Whether you’re a user ready to rent or a developer eager to contribute, RentedIt is the perfect platform to join and make an impact. Let’s build something extraordinary together!
             </p>
           </div>
         </div>

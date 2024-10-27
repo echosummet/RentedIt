@@ -1,6 +1,6 @@
-## 🛒 Daneizo
+## 🛒 RentedIt
 
-Thank you for your interest in contributing to **Daneizo**! We’re excited to see what creative ideas you bring. Follow these simple guidelines below to get started.
+Thank you for your interest in contributing to **RentedIt**! We’re excited to see what creative ideas you bring. Follow these simple guidelines below to get started.
 
 ---
 
@@ -13,14 +13,14 @@ Thank you for your interest in contributing to **Daneizo**! We’re excited to s
    Clone the forked repository to your local machine using the following command in your terminal:
 
 ```bash
-   git clone https://github.com/<your-github-username>/Daneizo.git
+   git clone https://github.com/<your-github-username>/RentedIt.git
 ```
 
 3. **Add a remote upstream:**
    Add a remote upstream to the original repository to sync changes from the original repository. Run the following command in your terminal:
 
 ```bash
-git remote add upstream https://github.com/<your-github-username>/Daneizo.git
+git remote add upstream https://github.com/<your-github-username>/RentedIt.git
 ```
 
 4. **Create a new branch:**

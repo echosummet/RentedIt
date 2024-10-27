@@ -18,11 +18,11 @@ const Footer = () => {
           <div> 
             <div className="flex gap-2 items-center">
               <a href="/" className="cursor-default">
-                <Image src="/Logo.svg" alt="Logo" width={35} height={35} />
+                <Image src="/images/logo.png" alt="Logo" width={35} height={35} />
               </a>
               <a href="/" className="cursor-default">
                 <h2 className="font-praise text-white text-[30px]">
-                  Daneízo
+                  RentedIt!
                 </h2>
               </a>
             </div>
@@ -83,10 +83,10 @@ const Footer = () => {
               <li className="flex items-center">
                 <Mail className="w-5 h-5 mr-2" />
                 <a
-                  href="mailto:info@daneizo.com"
+                  href="mailto:info@RentedIt.com"
                   className="text-white/70 hover:text-white transition-colors duration-300"
                 >
-                  info@daneizo.com
+                  info@RentedIt.com
                 </a>
               </li>
               <li className="flex items-center">
@@ -154,7 +154,7 @@ const Footer = () => {
 
         <div className="mt-12 pt-8 border-t border-white/20 text-center">
           <p className="text-white/70">
-            &copy; 2024 Daneízo. All Rights Reserved.
+            &copy; 2024 RentedIt!. All Rights Reserved.
           </p>
         </div>
       </div>
