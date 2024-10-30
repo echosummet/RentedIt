@@ -1,3 +1,4 @@
+
 import Footer from "@/components/Footer/Footer";
 import Hero from "@/components/Hero/Hero";
 import HowItWorks from "@/components/HowItWorks/HowItWorks";
@@ -9,20 +10,20 @@ import { NhostProvider } from "@nhost/nextjs";
 import { nhost } from '../lib/nhost'
 
 export const metadata: Metadata = {
-  title: "Home - Daneízo",
-  description: "Explore the top rented items, how it works, and user testimonials at Daneízo.",
+  title: "Home - RentedIt",
+  description: "Explore the top rented items, how it works, and user testimonials at RentedIt.",
   keywords: "rental, items, user testimonials, how it works",
   openGraph: {
-    title: "Daneízo - Home",
+    title: "RentedIt - Home",
     description: "Discover top rental items and read user testimonials.",
-    url: "https://daneizo.vercel.app",
+    url: "https://RentedIt.vercel.app",
     type: "website",
     images: [
       {
-        url: "https://daneizo.vercel.app/logo.svg",
+        url: "https://RentedIt.vercel.app/logo.svg",
         width: 1200,
         height: 630,
-        alt: "Daneízo Home Page Image",
+        alt: "RentedIt Home Page Image",
       },
     ],
   },
@@ -31,7 +32,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main className="bg-[#040312]">
-      <NhostProvider nhost={nhost}>
+
       <div className="flex flex-col items-center justify-center">
         <div className="w-[75%] max-sm:w-full">
           <Hero />
@@ -41,7 +42,6 @@ export default function Home() {
         </div>
       </div>
 
-      </NhostProvider>
     </main>
   );
 }

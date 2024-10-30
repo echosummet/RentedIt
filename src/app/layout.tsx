@@ -4,21 +4,22 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
+import { NhostClient } from "@nhost/nextjs";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Daneízo",
+  title: "RentedIt",
   description: "Rent, Use, Return - It's That Simple !",
-  keywords: "Daneízo, Rent, Use, Return, Simple",
+  keywords: "RentedIt, Rent, Use, Return, Simple",
   openGraph: {
-    title: "Daneízo",
+    title: "RentedIt",
     description: "Rent, Use, Return - It's That Simple !",
-    url: "https://daneizo.vercel.app",
+    url: "https://RentedIt.vercel.app",
     type: "website",
     images: [
       {
-        url: "https://daneizo.vercel.app/logo.svg",
+        url: "https://RentedIt.vercel.app/logo.svg",
         width: 1200,
         height: 630,
         alt: "Image Alt Text",
@@ -34,12 +35,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      
+
       <body className={`${inter.className} overflow-x-hidden`}>
       <Navbar/>
         {children}
         <Footer />
-        <Analytics />
+
       </body>
     </html>
   );

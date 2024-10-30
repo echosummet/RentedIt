@@ -1,10 +1,10 @@
-# Daneizo
+# RentedIt
 
 ## Why Buy When You Can Rent It! 🎉
 
-Daneizo is a platform that allows users to rent a variety of items instead of purchasing them. Built using modern web technologies, this project is open for contributions during the open-source festival. Whether you're a beginner or experienced developer, your contributions are welcome!
+RentedIt is a platform that allows users to rent a variety of items instead of purchasing them. Built using modern web technologies, this project is open for contributions during the open-source festival. Whether you're a beginner or experienced developer, your contributions are welcome!
 
-[Live Demo](https://daneizo.vercel.app/)
+[Live Demo](https://RentedIt.vercel.app/)
 
 <!--Line-->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
@@ -58,12 +58,12 @@ Daneizo is a platform that allows users to rent a variety of items instead of pu
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/SaranshBangar/Daneizo.git
+   git clone https://github.com/SaranshBangar/RentedIt.git
    ```
    
 2. **Install dependencies:**
    ```bash
-   cd Daneizo
+   cd RentedIt
    npm install
    ```
 
@@ -112,7 +112,7 @@ We encourage all contributors to help improve the platform!
 Make sure to check out the [Issues](#issues) section for tasks that need attention.
 
 <!-- Added Redirect to the Contributing.md file -->
-We welcome all contributions to improve **Daneizo**! If you would like to contribute, please follow the [Contributing.md](./Contributing.md) to get more details on how to get started.
+We welcome all contributions to improve **RentedIt**! If you would like to contribute, please follow the [Contributing.md](./Contributing.md) to get more details on how to get started.
 
 <!-- Added Guidelines for the Contributors -->
 To maintain quality and consistency, please adhere to the following guidelines:
@@ -126,7 +126,7 @@ To maintain quality and consistency, please adhere to the following guidelines:
 
 ## Issues
 
-Check out the [issues tab](https://github.com/SaranshBangar/Daneizo/issues) to find bugs, feature requests, or tasks. Feel free to pick one and start contributing.
+Check out the [issues tab](https://github.com/SaranshBangar/RentedIt/issues) to find bugs, feature requests, or tasks. Feel free to pick one and start contributing.
 
 <!--Line-->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
@@ -156,7 +156,7 @@ For any inquiries or feedback, please contact. Happy Contributing 🫡
   <div align = "center">
  <h3>Thank you for contributing to our repository</h3></div>
 
-   ![Contributors](https://contrib.rocks/image?repo=SaranshBangar/Daneizo&v=1)
+   ![Contributors](https://contrib.rocks/image?repo=SaranshBangar/RentedIt&v=1)
 </div>
 Contribute and make renting simpler for everyone! 🚀
 

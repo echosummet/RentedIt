@@ -58,17 +58,17 @@ const ContactUs: React.FC = () => {
                             Why Buy When You Can Rent It! 🎉
                         </h1>
                         <p className=' text-gray-200 leading-relaxed max-w-[80%] mx-auto'>
-                            Daneizo is a platform for renting items instead of buying. Built with modern technologies, it's open for contributions during the open-source festival. Whether you're a beginner or experienced, all contributions are welcome!
+                            RentedIt is a platform for renting items instead of buying. Built with modern technologies, it's open for contributions during the open-source festival. Whether you're a beginner or experienced, all contributions are welcome!
                         </p>
                         <ul className='space-y-2 text-gray-300'>
                             <li>
-                                <strong>Email:</strong> contact@daneizo.com
+                                <strong>Email:</strong> contact@RentedIt.com
                             </li>
                             <li>
                                 <strong>Phone:</strong> +123-456-7890
                             </li>
                             <li>
-                                <strong>Website:</strong> www.daneizo.com
+                                <strong>Website:</strong> www.RentedIt.com
                             </li>
                         </ul>
                         <div className='mt-6 text-left max-w-[80%] mx-auto'>

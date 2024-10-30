@@ -87,11 +87,11 @@ export default function Contributor() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const contributorsResponse = await fetch('https://api.github.com/repos/SaranshBangar/Daneizo/contributors')
+        const contributorsResponse = await fetch('https://api.github.com/repos/SaranshBangar/RentedIt/contributors')
         const contributorsData: Contributor[] = await contributorsResponse.json()
         setContributors(contributorsData)
 
-        const repoResponse = await fetch('https://api.github.com/repos/SaranshBangar/Daneizo')
+        const repoResponse = await fetch('https://api.github.com/repos/SaranshBangar/RentedIt')
         const repoData = await repoResponse.json()
         setRepoStats({
           stars: repoData.stargazers_count,
@@ -129,7 +129,7 @@ export default function Contributor() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            Welcome to Daneizo
+            Welcome to RentedIt
           </motion.h1>
           <motion.p 
             className="text-xl sm:text-2xl text-gray-300"
@@ -227,7 +227,7 @@ export default function Contributor() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Make an Impact?</h2>
           <p className="text-xl mb-8 text-gray-300">
-            Join our community and help shape the future of Daneizo.
+            Join our community and help shape the future of RentedIt.
           </p>
           <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4 justify-center">
              <input 

@@ -23,7 +23,7 @@ const ItemDetailPage = () => {
     const rating = parseFloat(searchParams.get('rating') || '0');
 
     
-    const pageTitle = itemName ? `${itemName} | Daneizo` : "Item Details | Daneizo"; 
+    const pageTitle = itemName ? `${itemName} | RentedIt` : "Item Details | RentedIt"; 
 
     useEffect(() => {
         document.title = pageTitle; 

@@ -5,7 +5,7 @@ import Image from 'next/image';
 const HeroText: React.FC = () => {
   return (
     <div className="relative">
-      <h1 className="font-outfit font-bold text-[50px] text-white mb-[2px]">Daneízo</h1>
+      <h1 className="font-outfit font-bold text-[50px] text-white mb-[2px]">RentedIt</h1>
       <h3 className="font-palanquin font-normal text-[30px] text-white w-[240px]">
         Rent, Use, Return - It's That Simple!
       </h3>

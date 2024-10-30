@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { MongoClient } from 'mongodb';
 
 const uri = 'mongodb://localhost:27017';
-const dbName = 'Daneizo';
+const dbName = 'RentedIt';
 const collectionName = 'ContactUs';
 
 export async function POST(request) {

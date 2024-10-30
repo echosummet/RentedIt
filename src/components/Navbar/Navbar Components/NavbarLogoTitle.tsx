@@ -13,7 +13,7 @@ const LogoTitleNavbar = () => {
         />
       </a>
       <a href="/" className="cursor-default">
-        <h2 className="font-praise text-white text-[2rem] md:text-[30px]">Daneízo</h2> 
+        <h2 className="font-praise text-white text-[2rem] md:text-[30px]">RentedIt</h2> 
       </a>
     </div>
   );
