@@ -5,6 +5,8 @@ import Navbar from "@/components/Navbar/Navbar";
 import TopRentedItems from "@/components/TopRentedItems/TopRentedItems";
 import UserTestimonials from "@/components/UserTestimonials/UserTestimonials";
 import { Metadata } from "next";
+import { NhostProvider } from "@nhost/nextjs";
+import { nhost } from '../lib/nhost'
 
 export const metadata: Metadata = {
   title: "Home - Daneízo",
@@ -29,7 +31,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main className="bg-[#040312]">
-
+      <NhostProvider nhost={nhost}>
       <div className="flex flex-col items-center justify-center">
         <div className="w-[75%] max-sm:w-full">
           <Hero />
@@ -38,6 +40,8 @@ export default function Home() {
           <UserTestimonials />
         </div>
       </div>
+
+      </NhostProvider>
     </main>
   );
 }
